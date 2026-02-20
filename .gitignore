@@ -7,3 +7,9 @@ Thumbs.db
 
 firebase-tools-instant-win.exe
 *.exe
+
+*.zip
+*.7z
+*.dmg
+*.msi
+*.exe
