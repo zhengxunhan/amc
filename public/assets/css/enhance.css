@@ -169,3 +169,36 @@
   font-size: 12px;
   color: rgba(0,0,0,.55);
 }
+
+
+/* ===== Mobile layout fixes for Services =====
+   Base style.css forces .radio-buttons-group to be single-row horizontal scroll:
+   overflow-x:auto; flex-wrap:nowrap; display:inline-flex;
+   These overrides FORCE wrapping on phones so 120 min is always visible.
+*/
+@media (max-width: 767.98px){
+  #services .section-content.d-flex{
+    flex-direction: column !important;
+  }
+  #services .section-content.d-flex > .w-50{
+    width: 100% !important;
+  }
+}
+
+/* Make duration buttons wrap instead of horizontal swipe */
+@media (max-width: 575.98px){
+  #services .radio-buttons-group{
+    display: flex !important;
+    flex-wrap: wrap !important;
+    overflow-x: visible !important;
+    max-width: 100% !important;
+    border: 0 !important;
+    gap: 8px !important;
+  }
+
+  #services .radio-buttons-group .btn{
+    flex: 1 1 calc(50% - 8px) !important; /* 2 per row */
+    border: 1px solid #d3d3d3 !important;
+    white-space: nowrap !important;
+  }
+}
