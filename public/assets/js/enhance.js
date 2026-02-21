@@ -3,11 +3,11 @@
 
   // Sticky "Call" button (bottom-right)
   const stickyBtn = $("stickyCallBtn") || $("stickyBookBtn");
-
+const scalpBtn = $("stickyScalpBtn");
   function updateSticky() {
-    if (!stickyBtn) return;
-    stickyBtn.style.display = window.scrollY > 450 ? "block" : "none";
-  }
+  if (stickyBtn) stickyBtn.style.display = window.scrollY > 450 ? "block" : "none";
+  if (scalpBtn)  scalpBtn.style.display  = window.scrollY > 120 ? "block" : "none";
+}
   updateSticky();
   window.addEventListener("scroll", updateSticky);
 
