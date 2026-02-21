@@ -301,3 +301,160 @@
     background-color: #385719 !important; /* Change this color anytime */
     color: #ffffff;
 }
+/* =========================
+   TESTIMONIALS SECTION
+   ========================= */
+
+#testimonials {
+    background-color: #385719 !important;
+}
+
+/* Card background transparent */
+#testimonials .card {
+    background-color: rgba(255, 255, 255, 0.08) !important;
+    border: 1px solid rgba(255, 255, 255, 0.25) !important;
+}
+
+/* Keep accent-left border */
+#testimonials .card-accent-left {
+    border-left: 4px solid rgba(255,255,255,0.25) !important;
+}
+
+/* Make all text white */
+#testimonials h1,
+#testimonials small,
+#testimonials p,
+#testimonials a,
+#testimonials blockquote,
+#testimonials .card-body {
+    color: #ffffff !important;
+}
+
+/* Remove black link styling */
+#testimonials .text-black {
+    color: #ffffff !important;
+}
+
+/* Keep stars yellow */
+#testimonials .star-rating i {
+    color: #FFD700 !important;
+}
+/* Testimonials arrow buttons */
+#testimonials .btn-light {
+    background-color: rgba(255,255,255,0.12) !important;
+    border: 1px solid rgba(255,255,255,0.25) !important;
+}
+
+#testimonials .btn-light i {
+    color: #ffffff !important;
+}
+
+/* Optional: hover effect */
+#testimonials .btn-light:hover {
+    background-color: rgba(255,255,255,0.20) !important;
+}
+/* =========================
+   FAQ SECTION STYLING
+   ========================= */
+
+#faq {
+    background-color: #385719 !important;
+}
+
+/* Make headings + text white */
+#faq h1,
+#faq p,
+#faq small,
+#faq a {
+    color: #ffffff !important;
+}
+
+/* FAQ card style */
+#faq .faq {
+    background-color: rgba(255, 255, 255, 0) !important;
+    border: 1px solid rgba(255, 255, 255, 0.02) !important;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect */
+#faq .faq:hover {
+    background-color: rgba(255, 255, 255, 0.07) !important;
+}
+
+/* FAQ toggle icons white */
+#faq .material-icons {
+    color: #ffffff !important;
+}
+
+/* Make small subtitle softer */
+#faq small.text-muted {
+    color: rgba(255,255,255,0.75) !important;
+}
+/* =========================
+   CONTACTS + FOOTER THEME
+   ========================= */
+
+/* Section background */
+#contacts,
+.footer {
+  background-color: #385719 !important;
+  color: #ffffff !important;
+}
+
+/* Headings + text */
+#contacts h1,
+#contacts p,
+#contacts small,
+#contacts a,
+#contacts .text-body,
+.footer,
+.footer a,
+.footer .material-icons {
+  color: #ffffff !important;
+}
+
+/* Softer small labels */
+#contacts .text-muted {
+  color: rgba(255,255,255,0.75) !important;
+}
+
+/* Contact cards: slightly transparent + keep border clean */
+#contacts .card {
+  background-color: rgba(255,255,255,0.08) !important;
+  border: 1px solid rgba(255,255,255,0.25) !important;
+}
+
+#contacts .card:hover {
+  background-color: rgba(255,255,255,0.14) !important;
+}
+
+/* Icons */
+#contacts .card-icon .material-icons {
+  color: #ffffff !important;
+}
+
+/* The “Asian Massage Center” button on the Instagram strip */
+#contacts .btn.bg-white {
+  background-color: rgba(255,255,255,0.12) !important;
+  border: 1px solid rgba(255,255,255,0.25) !important;
+  color: #ffffff !important;
+}
+
+/* Footer back-to-top icon */
+.footer .footer-icon {
+  color: #ffffff !important;
+}
+/* =========================
+   CONTACT LINKS HIGHLIGHT
+   ========================= */
+
+#contacts a {
+    color: #CFFFC2 !important; /* soft bright green highlight */
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+#contacts a:hover {
+    color: #FFFFFF !important;
+    text-decoration: none;
+}
