@@ -202,3 +202,35 @@
     white-space: nowrap !important;
   }
 }
+/* === Banner override (put at VERY bottom) === */
+.alert.alert-success {
+  background-color: #d4edda !important;
+  border-color: #2F5E3F !important;
+  color: #2F5E3F !important;
+}
+
+.alert.alert-success a,
+.alert.alert-success .alert-link {
+  color: #2F5E3F !important;
+  text-decoration: underline;
+}
+/* Make header call button white */
+#header-navbar .btn-outline-primary {
+    color: #ffffff !important;
+    border-color: #ffffff !important;
+}
+
+#header-navbar .btn-outline-primary:hover {
+    background-color: #ffffff !important;
+    color: #2F5E3F !important; /* your green */
+}
+/* Hero card black background + white text */
+.hero .card {
+    background-color: rgba(0,0,0,0) !important;
+}
+
+.hero .card-body,
+.hero .card-body h2,
+.hero .card-body p {
+    color: #ffffff !important;
+}
