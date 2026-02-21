@@ -234,3 +234,60 @@
 .hero .card-body p {
     color: #ffffff !important;
 }
+/* =========================
+   ABOUT SECTION STYLING
+   ========================= */
+
+#about {
+    background-color: #385719 !important;
+    color: #ffffff !important;
+}
+
+#about h1,
+#about p,
+#about small,
+#about li {
+    color: #ffffff !important;
+}
+
+/* Make the small subtitle slightly softer */
+#about small {
+    opacity: 0.8;
+}
+
+/* Make checkmarks stand out */
+#about .material-icons.text-primary {
+    color: #C9F99D!important; /* soft bright green accent */
+    font-size: 22px;
+}
+
+/* Optional: subtle spacing polish */
+#about ul li {
+    font-weight: 500;
+}
+/* HERO LEFT BACKGROUND COLOR */
+.hero {
+    background-color: #32411c !important;
+}
+/* Swedish massage paragraph text */
+#services p.my-11 {
+    color: #ffffff !important;
+}
+/* Service duration buttons */
+.radio-buttons-group .btn {
+    background-color: #ffffff !important;   /* white */
+    color: #385719 !important;              /* your green text */
+    border: 1px solid #d9d9d9 !important;   /* soft grey border */
+}
+
+/* Selected button */
+.radio-buttons-group .btn.selected {
+    background-color: #e5e5e5 !important;   /* light grey */
+    color: #385719 !important;
+    border: 1px solid #cfcfcf !important;
+}
+
+/* Hover effect */
+.radio-buttons-group .btn:hover {
+    background-color: #f2f2f2 !important;
+}
